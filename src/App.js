@@ -82,7 +82,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="app">
-        <Menu title="Amozon" onsearch={this.onSearch} onadd={this.addItem} />
+        <Menu title="biblioteca" onsearch={this.onSearch} onadd={this.addItem} />
         <List className="list" items={this.state.copyBooks} onremove={this.remove} onupdaterating={this.updateRating} />
       </div>
     );
