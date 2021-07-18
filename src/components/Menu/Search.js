@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-class Search extends React.Component{
+class Search extends React.Component {
 
     constructor(props){
         super(props);
@@ -14,10 +14,8 @@ class Search extends React.Component{
     }
 
     render(){
-        return(
-            <input type="text" onChange={this.onChangeEvent} />
-        );
+      return <input type="text" onChange={this.onChangeEvent} />;
     }
 }
 
-export default Search;
+export default Search
